@@ -1,0 +1,15 @@
+<?php 
+    $hosname = "localhost";
+
+    $user_db = "root";
+    $pass_db = "";
+    $db_name = "db_webakademis_php";
+
+    $conn = new mysqli($hosname, $user_db, $pass_db);
+
+    if ($conn->connect_error) {
+        die("connection failed " . $conn->connect_error);
+    }
+
+    mysqli_select_db($conn, $db_name);
+    ?>

@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    color: black;
+}
+
+body {
+    font: 16px/1.5 "Lato", sans-serif;
+}
+
+.logo {
+    width: 170px;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+}
+
+/* Header Style */
+.page-header {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+    width: 15%;
+    /* background: #5564D6; */
+    background-image: linear-gradient(#94d4f3, #5564d6) !important;
+}
+
+.page-header a, .dropdown-btn {
+    padding: 8px 0px 8px 10px;
+    text-decoration: none;
+    width: 100%;
+    /* font-size: 16px */
+    font-size: 16px;
+    color: #fffefe;
+    display: block;
+    border: none;
+    background: none;
+    transition: 0.3s;
+    outline: none;
+    text-align: left;
+}
+
+.page-header a:hover, .dropdown-btn:hover {
+    background-color: #7784e9;
+    color: #fefeff;
+}
+
+.active {
+    background-color: #46a2cf;
+    color: #ffff;
+}
+
+.page-logo {
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.menu-heading {
+    text-transform: uppercase;
+    letter-spacing: 0.10em;
+    font-size: 12px;
+    margin-top: 12p;
+    margin-left: 12px;
+    color: #fffefe;
+}
+
+.fa-icon {
+    float: left;
+    padding-right: 10px;
+}
+
+/* dropdown */
+.dropdown-container {
+    display: none;
+    background-color: #5564d6;
+    padding-left: 8px;
+}
+
+/* optional : style the caret down icon */
+.fa-caref-down {
+    float: right;
+    padding-right: 8px;
+}
+
+/* content style */
+.page-content {
+    margin: 0;
+    background-color: #cad0fc;
+    height: 100px;
+    width: 85%;
+    position: absolute;
+    right: 0;
+}
+
+.icon {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.content-header {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+}
+
+.admin-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0;
+    margin-right: 20px;
+}
+
+.content {
+    width: 100%;
+    background-color: #cad0fc;
+    padding: 20px 20px 20px 20px;
+}
